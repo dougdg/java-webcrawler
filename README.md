@@ -13,7 +13,7 @@ This project was constructed using Maven to build it and manage dependencies. I 
 
 After cloning the repository, go to main directory and execute the following Maven and Java commands to build (with all dependencies in same .jar) and run the project:
 * mvn clean compile assembly:single (build the jar)
-* java -cp webcrawler-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.dougdg.webcrawler.controller.Controller (run the app)
+* java -cp target\webcrawler-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.dougdg.webcrawler.controller.Controller (run the app)
 
 After running the last command, you will be asked to provide a URL and a number, which will control the depth of the recursion thru fetched URLs. 
 
